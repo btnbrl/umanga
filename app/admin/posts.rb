@@ -1,4 +1,5 @@
 ActiveAdmin.register Posts do
+  permit_params :description, :video_link
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
